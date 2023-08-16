@@ -144,7 +144,7 @@ while game_run:
         if position_of_snake[0] == block[0] and position_of_snake[1] == block[1]:
             game_over()
 
-    if player_score == 3:
+    if player_score == 10:
         game_win()
 
     display_score(1, blue_color, 'Verdana', 20)
